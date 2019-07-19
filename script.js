@@ -26,9 +26,8 @@ function quizApp(name) {
     } else if (randomNumber === 10) {
         result.innerHTML = name + "You are very Idiot"
     }
-
 }
-document.querySelector("button").addEventListener('click',function(){
-    quizApp(document.querySelector("input").value);
+document.querySelector("button").addEventListener('click', function () {
+    quizApp(document.querySelector("input").value.toUpperCase());
     document.querySelector("input").value = "";
 })

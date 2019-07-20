@@ -15,7 +15,7 @@ let intelligence = [
 
 function quizApp(name) {
 
-    let randomNumber = parseInt(Math.random() * 11);
+    let randomNumber = parseInt(Math.random() * intelligence.length);
     result.innerHTML = "Dear " + name + " You are" + intelligence[randomNumber];
 
 

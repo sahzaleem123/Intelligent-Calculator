@@ -11,6 +11,8 @@ let intelligence = [
     "Very Dumb",
     "Very Idiot"
 ];
+
+
 function quizApp(name) {
 
     let randomNumber = parseInt(Math.random() * 11);
@@ -19,6 +21,11 @@ function quizApp(name) {
 
 }
 document.querySelector("button").addEventListener('click', function () {
-    quizApp(document.querySelector("input").value.toUpperCase());
-    document.querySelector("input").value = "";
+    if (document.querySelector("input").value == "") {
+        alert("Please Enter a Name");
+    }
+    else {
+        quizApp(document.querySelector("input").value.toUpperCase());
+        document.querySelector("input").value = "";
+    }
 })

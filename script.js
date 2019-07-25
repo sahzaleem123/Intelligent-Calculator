@@ -1,15 +1,14 @@
-
 let result = document.querySelector("h1");
 let intelligence = [
     " Very Intelligent",
-    "Quite Impressive",
-    "Very Creative",
-    "Very Sharp",
-    "Very Keen",
-    "Very Smart",
-    "Very Penetreting",
-    "Very Dumb",
-    "Very Idiot"
+    " Quite Impressive",
+    " Very Creative",
+    " Very Sharp",
+    " Very Keen",
+    " Very Smart",
+    " Very Penetreting",
+    " Very Dumb",
+    " Very Idiot"
 ];
 
 
